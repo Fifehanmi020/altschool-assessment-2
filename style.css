@@ -28,7 +28,6 @@
   font-display: swap;
 }
 
-/* ---------- Design tokens (colour styles from the Figma file) ---------- */
 :root {
   --primary-400: #005ae2;      /* Primary/400 */
   --primary-300: #0065fe;      /* Primary/300 - base */
@@ -338,7 +337,6 @@ button, input, select { font: inherit; color: inherit; }
 }
 .hero__card-text strong { font-weight: 600; }
 
-/* the grey stage under the illustration (Figma "Group 3") */
 .hero__stage {
   width: 100%;
   height: 93px;
@@ -672,7 +670,6 @@ button, input, select { font: inherit; color: inherit; }
   align-items: start;
 }
 
-/* Company stays in the 4th column and spans both rows, as in the design */
 .footer__col--company { grid-column: 4; grid-row: 1 / span 2; margin-top: -2px; }
 
 .footer__col h4 {
